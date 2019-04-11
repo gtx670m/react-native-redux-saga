@@ -1,9 +1,3 @@
-/*
-Mr Nguyen Duc Hoang
-https://www.youtube.com/c/nguyenduchoang
-Email: sunlight4d@gmail.com
-MovieComponent - Examle of Redux Saga with Movie List App
-*/
 import React, { Component } from 'react';
 import Button from 'react-native-button';
 import FlatListItem from './FlatListItem';
@@ -58,7 +52,6 @@ export default class MovieComponent extends Component {
                                 alert('You must enter movie name and release Year');
                                 return;
                             }                 
-                            this.props.onAddMovie({name: movieName, releaseYear: releaseYear});
                         }}>
                         Add Movie
                     </Button>

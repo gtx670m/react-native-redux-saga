@@ -1,9 +1,3 @@
-/*
-Mr Nguyen Duc Hoang
-https://www.youtube.com/c/nguyenduchoang
-Email: sunlight4d@gmail.com
-FlatListItem - Examle of Redux Saga with Movie List App
-*/
 import React, { Component } from 'react';
 import Button from 'react-native-button';
 import Swipeout from 'react-native-swipeout';
@@ -39,10 +33,7 @@ export default class FlatListItem extends Component {
                             [
                                 { text: 'No', onPress: () => console.log('Cancel pressed'), style: 'cancel' },
                                 {
-                                    text: 'Yes', onPress: () => {
-                                        const { movieComponent } = this.props;  
-                                        //Call event, map in Container   
-                                        movieComponent.props.onDeleteItemAction(this.props.id);                                                                     
+                                    text: 'Yes', onPress: () => {                                                                    
                                     }
                                 },
                             ],

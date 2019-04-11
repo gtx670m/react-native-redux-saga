@@ -1,9 +1,3 @@
-/*
-Mr Nguyen Duc Hoang
-https://www.youtube.com/c/nguyenduchoang
-Email: sunlight4d@gmail.com
-Redux Saga in React Native. Example of query movies list
-*/
 import {name as appName} from "./app.json"
 import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';

@@ -1,10 +1,3 @@
-/*
-Mr Nguyen Duc Hoang
-https://www.youtube.com/c/nguyenduchoang
-Email: sunlight4d@gmail.com
-FlatList Component with Images
-Present Modal and update an existing FlatList's Item
-*/
 import React, { Component } from 'react';
 import {
     AppRegistry, FlatList, StyleSheet, Text, View, Image, Alert,
@@ -96,7 +89,6 @@ export default class EditModal extends Component {
                             return;
                         }
                         //Update existing Movie => define in Container                        
-                        this.props.movieComponent.props.onUpdateItemAction(this.state);
                         this.refs.myModal.close();                        
                     }}>
                     Save
